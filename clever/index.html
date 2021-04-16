@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Clever</title>
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+    <header class="header">
+    </header>
+
+    <section class="breadcrumb">
+        <div class="container container_flex">
+                <ul class="breadcrumb__items">
+                    <li><a href="#" class="breadcrumb__link">Home ></a></li>
+                    <li><a href="#" class="breadcrumb__link">Pages ></a></li>
+                    <li class="breadcrumb_active">Prices</li>
+                </ul>
+                <div class="breadcrumb__clouds">
+                    <img src="img/clouds.png" alt="clouds">
+                </div>
+        </div>  
+    </section>
+
+    <div class="container container_flex">
+        <section class="prices">
+            <h1 class="prices__title">Prices</h1>
+            <div class="prices__subtitle">The following information s considered when charging the order:</div>
+            <div class="prices__info">
+                <div class="prices__info-item">
+                    <img src="icons/duedate.png" alt="duedate">
+                    Your duedate
+                </div>
+                <div class="prices__info-item">
+                    <img src="icons/academic.png" alt="academic">
+                    Academic level
+                </div>
+                <div class="prices__info-item">
+                    <img src="icons/pages.png" alt="pages">
+                    Pages/words
+                </div>
+            </div>
+            <form class="form" action="#" method="get">
+                <div class="form__row">
+                    <div class="form__option-label">Select currency</div>
+                    <div class="form__currency form__option_style">
+                        <label class="form__currency-label" data-current="usd">
+                            <input type="radio" name="currency"  checked>
+                            USD
+                        </label>
+                        <label class="form__currency-label" data-current="eur">
+                            <input type="radio" name="currency" >
+                            EUR
+                        </label>
+                        <label class="form__currency-label" data-current="cad">
+                            <input type="radio" name="currency" >
+                            CAD
+                        </label>
+                        <label class="form__currency-label" data-current="gbp">
+                            <input type="radio" name="currency" >
+                            GBP
+                        </label>
+                        <label class="form__currency-label" data-current="aud">
+                            <input type="radio" name="currency" >
+                            AUD
+                        </label>
+                    </div>
+                </div>
+                <div class="form__row">
+                    <div class="form__option-label">Type of services</div>
+                    <input class="form__option_style" type="text" placeholder="Resume/CV services">
+                </div>
+                <div class="form__row">
+                    <div class="form__option-label">Type level</div>
+                    <select class="form__option-select form__option_style">
+                        <option value="Entry">Entry</option>
+                        <option value="Test">Test</option>
+                    </select>
+                </div>
+                <div class="table">
+                    <div class="table__inner"> 
+                        <div class="table__popular">
+                            <div class="table__category">
+                                <div class="table__category_transform">Most popular</div>
+                            </div>
+                            <div class="table__container">
+                                <div class="table__title">
+                                    <div class="table__descr">Service</div>
+                                    <div class="table__wrapper">
+                                        <div class="table__cell">5 days</div>
+                                        <div class="table__cell">3 days</div>
+                                        <div class="table__cell">48 hours</div>
+                                        <div class="table__cell">24 hours</div>
+                                    </div>
+                                </div>
+                                <div class="table__row">
+                                    <div class="table__descr">
+                                        Resume writing
+                                    </div>
+                                    <div class="table__wrapper">
+                                        <label class="table__cell">
+                                            <input type="checkbox">
+                                            $120</label>
+                                        <label class="table__cell">
+                                            <input type="checkbox">
+                                            $130</label>
+                                        <label class="table__cell">
+                                            <input type="checkbox">
+                                            $140</label>
+                                        <label class="table__cell">
+                                            <input type="checkbox">
+                                            $150</label>
+                                    </div>
+                                </div>
+                                <div class="table__row">
+                                    <div class="table__descr">
+                                        Resume writing
+                                    </div>
+                                    <div class="table__wrapper">
+                                        <label class="table__cell">
+                                            <input type="checkbox">
+                                            $120</label>
+                                        <label class="table__cell">
+                                            <input type="checkbox">
+                                            $130</label>
+                                        <label class="table__cell">
+                                            <input type="checkbox">
+                                            $140</label>
+                                        <label class="table__cell">
+                                            <input type="checkbox">
+                                            $150</label>
+                                    </div>
+                                </div>
+                                <div class="table__row">
+                                    <div class="table__descr">
+                                        Full Resume Package: Resume + CoverLetter + Thank-you/Follow-up Letters
+                                    </div>
+                                    <div class="table__wrapper">
+                                        <label class="table__cell">
+                                            <input type="checkbox">
+                                            $120</label>
+                                        <label class="table__cell">
+                                            <input type="checkbox">
+                                            $130</label>
+                                        <label class="table__cell">
+                                            <input type="checkbox">
+                                            $140</label>
+                                        <label class="table__cell">
+                                            <input type="checkbox">
+                                            $150</label>
+                                    </div>
+                                </div>
+                                <div class="table__row">
+                                    <div class="table__descr">
+                                        Resume Package: Resume + Cover letter writing
+                                    </div>
+                                    <div class="table__wrapper">
+                                        <label class="table__cell">
+                                            <input type="checkbox">
+                                            $120</label>
+                                        <label class="table__cell">
+                                            <input type="checkbox">
+                                            $130</label>
+                                        <label class="table__cell">
+                                            <input type="checkbox">
+                                            $140</label>
+                                        <label class="table__cell">
+                                            <input type="checkbox">
+                                            $150</label>
+                                    </div>
+                                </div>
+                                <div class="table__row">
+                                    <div class="table__descr">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quod, libero consectetur aut ipsum veniam accusantium aliquam nemo molestiae reiciendis accusamus provident illo dignissimos sed illum? Recusandae, sint? Ducimus, voluptatem!
+                                    </div>
+                                    <div class="table__wrapper">
+                                        <label class="table__cell">
+                                            <input type="checkbox">
+                                            $120</label>
+                                        <label class="table__cell">
+                                            <input type="checkbox">
+                                            $130</label>
+                                        <label class="table__cell">
+                                            <input type="checkbox">
+                                            $140</label>
+                                        <label class="table__cell">
+                                            <input type="checkbox">
+                                            $150</label>
+                                    </div>
+                                </div>
+                                <div class="table__row">
+                                    <div class="table__descr">
+                                        Resume writing
+                                    </div>
+                                    <div class="table__wrapper">
+                                        <label class="table__cell">
+                                            <input type="checkbox">
+                                            $120</label>
+                                        <label class="table__cell">
+                                            <input type="checkbox">
+                                            $130</label>
+                                        <label class="table__cell">
+                                            <input type="checkbox">
+                                            $140</label>
+                                        <label class="table__cell">
+                                            <input type="checkbox">
+                                            $150</label>
+                                    </div>
+                                </div>
+                                <div class="table__row">
+                                    <div class="table__descr">
+                                        Resume writing
+                                    </div>
+                                    <div class="table__wrapper">
+                                        <label class="table__cell">
+                                            <input type="checkbox">
+                                            $120</label>
+                                        <label class="table__cell">
+                                            <input type="checkbox">
+                                            $130</label>
+                                        <label class="table__cell">
+                                            <input type="checkbox">
+                                            $140</label>
+                                        <label class="table__cell">
+                                            <input type="checkbox">
+                                            $150</label>
+                                    </div>
+                                </div>
+                                <div class="table__row">
+                                    <div class="table__descr">
+                                        Resume writing
+                                    </div>
+                                    <div class="table__wrapper">
+                                        <label class="table__cell">
+                                            <input type="checkbox">
+                                            $120</label>
+                                        <label class="table__cell">
+                                            <input type="checkbox">
+                                            $130</label>
+                                        <label class="table__cell">
+                                            <input type="checkbox">
+                                            $140</label>
+                                        <label class="table__cell">
+                                            <input type="checkbox">
+                                            $150</label>
+                                    </div>
+                                </div>
+                                <div class="table__row">
+                                    <div class="table__descr">
+                                        Resume writing
+                                    </div>
+                                    <div class="table__wrapper">
+                                        <label class="table__cell">
+                                            <input type="checkbox">
+                                            $120</label>
+                                        <label class="table__cell">
+                                            <input type="checkbox">
+                                            $130</label>
+                                        <label class="table__cell">
+                                            <input type="checkbox">
+                                            $140</label>
+                                        <label class="table__cell">
+                                            <input type="checkbox">
+                                            $150</label>
+                                    </div>
+                                </div>
+                                <div class="table__row">
+                                    <div class="table__descr">
+                                        Resume writing
+                                    </div>
+                                    <div class="table__wrapper">
+                                        <label class="table__cell">
+                                            <input type="checkbox">
+                                            $120</label>
+                                        <label class="table__cell">
+                                            <input type="checkbox">
+                                            $130</label>
+                                        <label class="table__cell">
+                                            <input type="checkbox">
+                                            $140</label>
+                                        <label class="table__cell">
+                                            <input type="checkbox">
+                                            $150</label>
+                                    </div>
+                                </div>
+                                <div class="table__row">
+                                    <div class="table__descr">
+                                        Resume writing
+                                    </div>
+                                    <div class="table__wrapper">
+                                        <label class="table__cell">
+                                            <input type="checkbox">
+                                            $120</label>
+                                        <label class="table__cell">
+                                            <input type="checkbox">
+                                            $130</label>
+                                        <label class="table__cell">
+                                            <input type="checkbox">
+                                            $140</label>
+                                        <label class="table__cell">
+                                            <input type="checkbox">
+                                            $150</label>
+                                    </div>
+                                </div>
+                                <div class="table__row">
+                                    <div class="table__descr">
+                                        Resume writing
+                                    </div>
+                                    <div class="table__wrapper">
+                                        <label class="table__cell">
+                                            <input type="checkbox">
+                                            $120</label>
+                                        <label class="table__cell">
+                                            <input type="checkbox">
+                                            $130</label>
+                                        <label class="table__cell">
+                                            <input type="checkbox">
+                                            $140</label>
+                                        <label class="table__cell">
+                                            <input type="checkbox">
+                                            $150</label>
+                                    </div>
+                                </div>
+                                <div class="table__row">
+                                    <div class="table__descr">
+                                        Resume writing
+                                    </div>
+                                    <div class="table__wrapper">
+                                        <label class="table__cell">
+                                            <input type="checkbox">
+                                            $120</label>
+                                        <label class="table__cell">
+                                            <input type="checkbox">
+                                            $130</label>
+                                        <label class="table__cell">
+                                            <input type="checkbox">
+                                            $140</label>
+                                        <label class="table__cell">
+                                            <input type="checkbox">
+                                            $150</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="table__other">
+                            <div class="table__category table__category_color">
+                                <div class="table__category_transform">Other</div>
+                            </div>
+                            <div class="table__container">
+                                <div class="table__row">
+                                    <div class="table__descr">
+                                        Resume writing
+                                    </div>
+                                    <div class="table__wrapper">
+                                        <label class="table__cell">
+                                            <input type="checkbox">
+                                            $120</label>
+                                        <label class="table__cell">
+                                            <input type="checkbox">
+                                            $130</label>
+                                        <label class="table__cell">
+                                            <input type="checkbox">
+                                            $140</label>
+                                        <label class="table__cell">
+                                            <input type="checkbox">
+                                            $150</label>
+                                    </div>
+                                </div>
+                                <div class="table__row">
+                                    <div class="table__descr">
+                                        Resume writing
+                                    </div>
+                                    <div class="table__wrapper">
+                                        <label class="table__cell">
+                                            <input type="checkbox">
+                                            $120</label>
+                                        <label class="table__cell">
+                                            <input type="checkbox">
+                                            $130</label>
+                                        <label class="table__cell">
+                                            <input type="checkbox">
+                                            $140</label>
+                                        <label class="table__cell">
+                                            <input type="checkbox">
+                                            $150</label>
+                                    </div>
+                                </div>
+                                <div class="table__row">
+                                    <div class="table__descr">
+                                        Resume writing
+                                    </div>
+                                    <div class="table__wrapper">
+                                        <label class="table__cell">
+                                            <input type="checkbox">
+                                            $120</label>
+                                        <label class="table__cell">
+                                            <input type="checkbox">
+                                            $130</label>
+                                        <label class="table__cell">
+                                            <input type="checkbox">
+                                            $140</label>
+                                        <label class="table__cell">
+                                            <input type="checkbox">
+                                            $150</label>
+                                    </div>
+                                </div>
+                                <div class="table__row">
+                                    <div class="table__descr">
+                                        Resume writing
+                                    </div>
+                                    <div class="table__wrapper">
+                                        <label class="table__cell">
+                                            <input type="checkbox">
+                                            $120</label>
+                                        <label class="table__cell">
+                                            <input type="checkbox">
+                                            $130</label>
+                                        <label class="table__cell">
+                                            <input type="checkbox">
+                                            $140</label>
+                                        <label class="table__cell">
+                                            <input type="checkbox">
+                                            $150</label>
+                                    </div>
+                                </div>
+                                <div class="table__row">
+                                    <div class="table__descr">
+                                        Resume writing
+                                    </div>
+                                    <div class="table__wrapper">
+                                        <label class="table__cell">
+                                            <input type="checkbox">
+                                            $120</label>
+                                        <label class="table__cell">
+                                            <input type="checkbox">
+                                            $130</label>
+                                        <label class="table__cell">
+                                            <input type="checkbox">
+                                            $140</label>
+                                        <label class="table__cell">
+                                            <input type="checkbox">
+                                            $150</label>
+                                    </div>
+                                </div>
+                                <div class="table__row">
+                                    <div class="table__descr">
+                                        Resume writing
+                                    </div>
+                                    <div class="table__wrapper">
+                                        <label class="table__cell">
+                                            <input type="checkbox">
+                                            $120</label>
+                                        <label class="table__cell">
+                                            <input type="checkbox">
+                                            $130</label>
+                                        <label class="table__cell">
+                                            <input type="checkbox">
+                                            $140</label>
+                                        <label class="table__cell">
+                                            <input type="checkbox">
+                                            $150</label>
+                                    </div>
+                                </div>
+                                <div class="table__row">
+                                    <div class="table__descr">
+                                        Resume writing
+                                    </div>
+                                    <div class="table__wrapper">
+                                        <label class="table__cell">
+                                            <input type="checkbox">
+                                            $120</label>
+                                        <label class="table__cell">
+                                            <input type="checkbox">
+                                            $130</label>
+                                        <label class="table__cell">
+                                            <input type="checkbox">
+                                            $140</label>
+                                        <label class="table__cell">
+                                            <input type="checkbox">
+                                            $150</label>
+                                    </div>
+                                </div>
+                                <div class="table__row">
+                                    <div class="table__descr">
+                                        Resume writing
+                                    </div>
+                                    <div class="table__wrapper">
+                                        <label class="table__cell">
+                                            <input type="checkbox">
+                                            $120</label>
+                                        <label class="table__cell">
+                                            <input type="checkbox">
+                                            $130</label>
+                                        <label class="table__cell">
+                                            <input type="checkbox">
+                                            $140</label>
+                                        <label class="table__cell">
+                                            <input type="checkbox">
+                                            $150</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form__submit">
+                    <div class="form__total">Total price: <span id="total">$0</span></div>
+                    <button class="form__button">proceed to order</button>
+                </div>  
+            </form>
+        </section>
+
+        <section class="sidebar">
+            <h2 class="sidebar__title">Free features</h2>
+            <div class="sidebar__item">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit delectus quos, maiores quidem exercitationem laudantium aspernatur nam, possimus vero minus cum optio porro amet magnam totam ullam reprehenderit, qui incidunt?</div>
+            <div class="sidebar__item">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit delectus quos, maiores quidem exercitationem laudantium aspernatur nam, possimus vero minus cum optio porro amet magnam totam ullam reprehenderit, qui incidunt?</div>
+            <div class="sidebar__item">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit delectus quos, maiores quidem exercitationem laudantium aspernatur nam, possimus vero minus cum optio porro amet magnam totam ullam reprehenderit, qui incidunt?</div>
+        </section>
+    </div>
+
+    <section class="stats">
+        <div class="container">
+            <h2 class="stats__title">Our stats</h2>
+            <div class="container_flex">
+                <div class="stats__item">
+                    <img src="icons/customers.png" alt="customers" class="stats__icon">
+                    <div class="stats__descr">Customers<br><span class="stats__value">665</span></div>
+                </div>
+                <div class="stats__item">
+                    <img src="icons/writes_active.png" alt="writes_active" class="stats__icon">
+                    <div class="stats__descr">Witers active<br><span class="stats__value">169</span></div>
+                </div>
+                <div class="stats__item">
+                    <img src="icons/average.png" alt="average" class="stats__icon">
+                    <div class="stats__descr">Average quality<br><span class="stats__value">score 9.5/10</span></div>
+                </div>
+                <div class="stats__item">
+                    <img src="icons/writes_online.png" alt="writes_online" class="stats__icon">
+                    <div class="stats__descr">Writers online<br><span class="stats__value">73</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrap">
+                <img src="icons/grass_top.png" alt="grass_top" class="footer__grass footer__grass_left">
+                <img src="icons/grass_bottom.png" alt="grass_bottom" class="footer__grass footer__grass_right">
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="js/script.js"></script>
+</html>
